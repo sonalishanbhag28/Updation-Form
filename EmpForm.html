@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+        form
+        { 
+            border: 1px solid black;  
+            padding:10px;
+            padding-top: 0px;
+            width: fit-content;
+            margin-left:45%;
+            font-weight: 200;
+        }
+        </style>
+        <title>19BDS0114 Form for Vehicle Change</title>
+    </head>
+    <body>
+        <form action="/post" method="post">
+            <center><h3>Employee Form for Vehicle Change</h3></center>
+            <hr>
+            <b>Employee Details:</b><br><br>
+            Employee ID:
+            <input name="id" type="text" size="23"required><br><br>
+            <b>New Vehicle Details:</b><br><br>
+            Vehicle Number:
+            <input name="vn" type="text" size="20"><br><br>
+            Owner Name:
+            <input name="on" type="text" size="23"><br><br>
+            Brand Name:
+            <input name="bn" type="text" size="23"><br><br>
+            Year of Purchase:
+            <input name="yr" type="text" size="19"><br><br>
+            <center><button id="btn">Submit</button></center>
+        </form>
+    </body>
+</html>
